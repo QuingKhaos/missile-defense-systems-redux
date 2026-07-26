@@ -1,10 +1,11 @@
 mod_info:
   title: |
-    ###TITLE###
+    Missile Defense Systems Redux
   summary: |
-    ###DESC###
+    Missile Defense Systems adds three tiers of missile-firing defensive turrets: Basic, Advanced, and Ballistic - an end-game rapid-fire artillery launcher.
   description_file: README.md
   attach_source_link: true
   license: default_gnugplv3
-  category: internal
-  tags: []
+  category: content
+  tags:
+    - combat

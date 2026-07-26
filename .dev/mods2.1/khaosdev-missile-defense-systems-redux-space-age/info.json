@@ -1,16 +1,17 @@
 {
-  "name": "khaosdev-###NAME###-vanilla",
-  "title": "// DEV // ###TITLE### // Vanilla //",
+  "name": "khaosdev-missile-defense-systems-redux-space-age",
+  "title": "// DEV // Missile Defense Systems Redux // Space Age //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
   "version": "0.0.0",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
     "base",
-    "! elevated-rails",
-    "! quality",
-    "! space-age",
+    "elevated-rails",
+    "quality",
+    "recycler",
+    "space-age",
 
     "khaosdev",
     "ghost-logistics",
@@ -19,11 +20,14 @@
     "barrel-stages",
     "barreling-group2",
     "khaosammogroup",
+    "khaosbioprocessinggroup",
+    "? khaoscastinggroup",
     "khaoscircuitrygroup",
     "khaosmodulesgroup",
     "khaostransportgroup",
     "science-tab",
 
-    "###NAME###"
-  ]
+    "missile-defense-systems-redux"
+  ],
+  "expansion_required": true
 }

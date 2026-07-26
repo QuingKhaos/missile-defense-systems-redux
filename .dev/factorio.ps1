@@ -1,6 +1,6 @@
 Set-Variable -Name workspace -Value $Env:FACTORIO_WORKSPACE
 Set-Variable -Name mod_base -Value $Env:FACTORIO_STEAM_MODS_BASE
-Set-Variable -Name package -Value "###NAME###"
+Set-Variable -Name package -Value "missile-defense-systems-redux"
 
 New-Item -ItemType Directory -Force -Path "$mod_base" | Out-Null
 Copy-Item -Force -Recurse -Path "$workspace\$package\.dev\mods2.0\*" -Destination "$mod_base" -ErrorAction SilentlyContinue

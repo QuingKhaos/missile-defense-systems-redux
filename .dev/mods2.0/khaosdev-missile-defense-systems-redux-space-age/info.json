@@ -1,6 +1,6 @@
 {
-  "name": "khaosdev-###NAME###-space-age",
-  "title": "// DEV // ###TITLE### // Space Age //",
+  "name": "khaosdev-missile-defense-systems-redux-space-age",
+  "title": "// DEV // Missile Defense Systems Redux // Space Age //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
@@ -26,7 +26,7 @@
     "khaostransportgroup",
     "science-tab",
 
-    "###NAME###"
+    "missile-defense-systems-redux"
   ],
   "space_travel_required": true
 }

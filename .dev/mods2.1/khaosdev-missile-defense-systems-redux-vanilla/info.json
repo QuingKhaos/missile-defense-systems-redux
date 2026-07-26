@@ -1,6 +1,6 @@
 {
-  "name": "khaosdev-###NAME###-vanilla",
-  "title": "// DEV // ###TITLE### // Vanilla //",
+  "name": "khaosdev-missile-defense-systems-redux-vanilla",
+  "title": "// DEV // Missile Defense Systems Redux // Vanilla //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
@@ -25,6 +25,6 @@
     "khaostransportgroup",
     "science-tab",
 
-    "###NAME###"
+    "missile-defense-systems-redux"
   ]
 }
