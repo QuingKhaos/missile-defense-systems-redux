@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Factorio (Steam)",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}/.dev/factorio.ps1",
+            "args": []
+        },
+        {
+            "name": "Factorio 2.0",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}/.dev/factorio_2.0.ps1",
+            "args": []
+        },
+        {
+            "name": "Factorio 2.1",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}/.dev/factorio_2.1.ps1",
+            "args": []
+        }
+    ]
+}

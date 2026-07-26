@@ -1,0 +1,32 @@
+{
+  "name": "khaosdev-###NAME###-space-age",
+  "title": "// DEV // ###TITLE### // Space Age //",
+  "description": "",
+  "author": "QuingKhaos",
+  "homepage": "https://discord.gg/SYmkaDjFCt",
+  "version": "0.0.0",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base",
+    "elevated-rails",
+    "quality",
+    "space-age",
+
+    "khaosdev",
+    "ghost-logistics",
+    "remove-animations",
+
+    "barrel-stages",
+    "barreling-group2",
+    "khaosammogroup",
+    "khaosbioprocessinggroup",
+    "khaoscastinggroup",
+    "khaoscircuitrygroup",
+    "khaosmodulesgroup",
+    "khaostransportgroup",
+    "science-tab",
+
+    "###NAME###"
+  ],
+  "space_travel_required": true
+}

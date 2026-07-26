@@ -1,0 +1,10 @@
+mod_info:
+  title: |
+    ###TITLE###
+  summary: |
+    ###DESC###
+  description_file: README.md
+  attach_source_link: true
+  license: default_gnugplv3
+  category: internal
+  tags: []

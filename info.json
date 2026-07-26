@@ -1,0 +1,23 @@
+{
+  "name": "###NAME###",
+  "title": "###TITLE###",
+  "description": "###DESC###",
+  "author": "QuingKhaos",
+  "homepage": "https://discord.gg/SYmkaDjFCt",
+  "version": "1.0.0",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.77",
+
+    "khaosbash >= 1.2.0",
+    "khaoslib >= 1.17.2"
+  ],
+  "package": {
+    "ignore": [
+      "mod_info.yml",
+      "**/*.md",
+      "**/*.svg",
+      "**/*.xcf"
+    ]
+  }
+}

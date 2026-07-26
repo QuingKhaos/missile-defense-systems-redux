@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "DavidAnson.vscode-markdownlint",
+    "editorconfig.editorconfig",
+    "justarandomgeek.factoriomod-debug",
+    "ms-vscode.powershell",
+    "tangzx.emmylua",
+    "usernamehw.errorlens"
+  ]
+}
