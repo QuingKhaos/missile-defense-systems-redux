@@ -1,5 +1,6 @@
 {
   "technology": [
+    ["advanced-missile-defense-systems-tech", "advanced-missile-defense-system"],
     ["basic-missile-defense-systems-tech", "basic-missile-defense-system"]
   ]
 }
