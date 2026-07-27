@@ -97,3 +97,33 @@ khaoslib_setting:load {
     maximum_value = 10.0,
     order = "a[settings]-b[advanced]-e[fire-rate]",
 } :commit()
+
+khaoslib_setting:load {
+  type = "double-setting",
+  name = "mds-ballistic-shots-per-second",
+  setting_type = "startup",
+  default_value = 6.0,
+  minimum_value = 0.1,
+  maximum_value = 20.0,
+  order = "a[settings]-c[ballistic]-a[shots-per-second]",
+} :commit()
+
+khaoslib_setting:load {
+  name = "mds-ballistic-minimum-range",
+  type = "int-setting",
+  setting_type= "startup",
+  default_value = 80,
+  minimum_value = 0,
+  maximum_value = 500,
+  order = "a[settings]-c[ballistic]-b[minimum-range]",
+} :commit()
+
+khaoslib_setting:load {
+  name = "mds-ballistic-max-range",
+  type = "int-setting",
+  setting_type= "startup",
+  default_value = 500,
+  minimum_value = 0,
+  maximum_value = 1500,
+  order = "a[settings]-c[ballistic]-c[max-range]",
+} :commit()

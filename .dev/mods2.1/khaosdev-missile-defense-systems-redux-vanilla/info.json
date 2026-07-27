@@ -19,7 +19,7 @@
 
     "barrel-stages",
     "barreling-group2",
-    "khaosammogroup",
+    "+ khaosammogroup",
     "khaoscircuitrygroup",
     "khaosmodulesgroup",
     "khaostransportgroup",

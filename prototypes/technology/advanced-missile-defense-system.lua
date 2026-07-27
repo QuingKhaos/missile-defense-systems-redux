@@ -9,7 +9,7 @@ khaoslib_technology:load {
   "basic-missile-defense-system",
   "processing-unit",
   "explosive-rocketry",
-  "electric-engine"
+  "electric-engine",
 } :set_unit {
   time = 30,
   count = 150,

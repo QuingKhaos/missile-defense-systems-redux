@@ -9,7 +9,7 @@ khaoslib_technology:load {
   "rocketry",
   "gun-turret",
   "steel-processing",
-  "advanced-circuit"
+  "advanced-circuit",
 } :set_unit {
   time = 20,
   count = 75,
