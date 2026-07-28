@@ -3,3 +3,15 @@
 # Missile Defense Systems Redux
 
 Missile Defense Systems adds three tiers of missile-firing defensive turrets: Basic, Advanced, and Ballistic - an end-game rapid-fire artillery launcher.
+
+Supports seamless migration from **Missile Defense Systems Continued**.
+
+## Coming soon
+
+- Space age support
+- Ballistic atomic bomb missile
+- Missile types support from other mods
+
+## Credits
+
+Based on [Missile Defense Systems Continued](https://mods.factorio.com/mod/missile_defense_systems_continued) by [Ramasees](https://mods.factorio.com/user/Ramasees), which is based on the original [Missile Defense Systems](https://mods.factorio.com/mod/missile_defense_systems) by [kafoaai](https://mods.factorio.com/user/kafoaai).
