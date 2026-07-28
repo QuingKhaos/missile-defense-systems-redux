@@ -10,7 +10,11 @@
     "base >= 2.0.77",
 
     "khaosbash >= 1.2.0",
-    "khaoslib >= 1.17.2"
+    "khaoslib >= 1.17.2",
+
+    "! missile_defense_systems",
+    "! missile_defense_systems_sa",
+    "! missile_defense_systems_continued"
   ],
   "package": {
     "ignore": [
