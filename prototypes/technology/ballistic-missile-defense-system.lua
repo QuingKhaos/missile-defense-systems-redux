@@ -1,6 +1,6 @@
 local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 
-khaoslib_technology:load {
+local tech = khaoslib_technology:load {
 	type = "technology",
 	name = "ballistic-missile-defense-system",
 	order = "c-a",
@@ -25,4 +25,11 @@ khaoslib_technology:load {
   :add_unlock_recipe("mds-ballistic-missile")
   :add_unlock_recipe("mds-ballistic-explosive-missile")
   :set_icons {{icon = "__missile-defense-systems-redux__/graphics/technology/ballistic-missile-defense-system.png", icon_size = 256}}
-  :commit()
+
+if mods["space-age"] then
+  tech:add_prerequisite("rocket-turret")
+    :add_science_pack({"metallurgic-science-pack", 1})
+    :add_science_pack({"agricultural-science-pack", 1})
+end
+
+tech:commit()

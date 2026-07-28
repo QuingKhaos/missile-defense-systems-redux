@@ -1,6 +1,6 @@
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 
-khaoslib_recipe:load {
+local recipe = khaoslib_recipe:load {
   type = "recipe",
   name = "ballistic-missile-defense-system",
   subgroup = "turret",
@@ -14,4 +14,10 @@ khaoslib_recipe:load {
 } :set_results {
   {type = "item", name = "ballistic-missile-defense-system", amount = 1},
 } :set_icons {{icon = "__missile-defense-systems-redux__/graphics/icons/ballistic-missile-defense-system.png", icon_size = 64}}
-  :commit()
+
+if mods["space-age"] then
+  recipe:add_ingredient({type = "item", name = "carbon-fiber", amount = 50})
+    :add_ingredient({type = "item", name = "tungsten-plate", amount = 100})
+end
+
+recipe:commit()
