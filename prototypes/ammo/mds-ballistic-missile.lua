@@ -1,4 +1,5 @@
 local ballistic_constants = require("__missile-defense-systems-redux__.prototypes.ballistic-constants")
+local khaosbash = require("__khaosbash__.prototypes.lib")
 local khaoslib_ammo = require("__khaoslib__.prototypes.ammo")
 local khaoslib_ammo_type = require("__khaoslib__.prototypes.ammo-type")
 local khaoslib_trigger_item = require("__khaoslib__.prototypes.trigger-item")
@@ -9,7 +10,7 @@ khaoslib_ammo.copy("rocket", "mds-ballistic-missile")
     ammo_category = "mds-ballistic-missile",
     magazine_size = 10,
   }
-  :set_icons {{icon = "__missile-defense-systems-redux__/graphics/icons/mds-ballistic-missile.png", icon_size = 64}}
+  :set_icons(khaosbash.load_icons("__missile-defense-systems-redux__/graphics/icons/mds-ballistic-missile", {1, 0.8, 0.3}))
   :replace_ammo_type(function(ammo_type)
     return ammo_type.action ~= nil
   end, function(ammo_type)
