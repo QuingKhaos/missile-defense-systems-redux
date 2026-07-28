@@ -6,3 +6,4 @@ Date: ????
   Bugfixes:
     - Use big remnants for the ballistic missile defense system instead of the artillery turret remnants.
     - Bigger collision box for the ballistic missile defense system to prevent entities clipping into it.
+    - Remove empty artillery shell casings being ejected from the ballistic missile defense system.
