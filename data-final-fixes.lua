@@ -1,4 +1,26 @@
 local khaoslib_ammo = require("__khaoslib__.prototypes.ammo")
+local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 
 khaoslib_ammo:load("mds-ballistic-missile"):set {subgroup = "ammo-rocket"} :commit()
 khaoslib_ammo:load("mds-ballistic-explosive-missile"):set {subgroup = "ammo-rocket"} :commit()
+
+-- Parity with rocket damage and speed research
+local techs = khaoslib_technology.find(function(tech)
+  return khaoslib_technology.has_effect(tech, function(effect)
+      return (effect.type == "ammo-damage" or effect.type == "gun-speed") and effect.ammo_category == "rocket"
+    end)
+end)
+
+for _, tech_name in pairs(techs) do
+  local tech = khaoslib_technology:load(tech_name)
+  local effects = tech:find_effects(function(effect)
+    return (effect.type == "ammo-damage" or effect.type == "gun-speed") and effect.ammo_category == "rocket"
+  end)
+
+  for _, effect in pairs(effects) do
+    effect.ammo_category = "mds-ballistic-missile"
+    tech:add_effect(effect)
+  end
+
+  tech:commit()
+end
