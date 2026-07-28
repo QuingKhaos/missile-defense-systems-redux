@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: ????
+Date: 2026-07-28
   Features:
     - Re-create missile defense systems from scratch.
   Changes:
