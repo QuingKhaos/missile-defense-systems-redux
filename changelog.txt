@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: ????
+  Bugfixes:
+    - Correctly gate ammo subgroup assignment if QuingKhaos' Ammo Group is not installed.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-07-28
   Features:

@@ -1,8 +1,10 @@
 local khaoslib_ammo = require("__khaoslib__.prototypes.ammo")
 local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 
-khaoslib_ammo:load("mds-ballistic-missile"):set {subgroup = "ammo-rocket"} :commit()
-khaoslib_ammo:load("mds-ballistic-explosive-missile"):set {subgroup = "ammo-rocket"} :commit()
+if mods["khaosammogroup"] then
+  khaoslib_ammo:load("mds-ballistic-missile"):set {subgroup = "ammo-rocket"} :commit()
+  khaoslib_ammo:load("mds-ballistic-explosive-missile"):set {subgroup = "ammo-rocket"} :commit()
+end
 
 -- Parity with rocket damage and speed research
 local techs = khaoslib_technology.find(function(tech)
