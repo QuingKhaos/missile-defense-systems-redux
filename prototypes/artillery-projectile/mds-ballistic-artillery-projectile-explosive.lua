@@ -10,21 +10,8 @@ khaoslib_artillery_projectile.copy("artillery-projectile", "mds-ballistic-artill
   :unset("picture")
   :unset("shadow")
   :set {
-    picture = {
-      filename = "__missile-defense-systems-redux__/graphics/entity/mds-rocket-projectile.png",
-      priority = "high",
-      width = 64,
-      height = 64,
-      scale = 0.45,
-    },
-    shadow = {
-      filename = "__missile-defense-systems-redux__/graphics/entity/mds-rocket-projectile.png",
-      priority = "high",
-      width = 64,
-      height = 64,
-      scale = 0.45,
-      draw_as_shadow = true,
-    },
+    picture = require("__base__.prototypes.entity.rocket-projectile-pictures").animation({1, 0.2, 0.2}),
+    shadow = require("__base__.prototypes.entity.rocket-projectile-pictures").shadow,
   }
   :unset("action")
   :set {

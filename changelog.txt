@@ -3,6 +3,8 @@ Version: 1.0.0
 Date: ????
   Features:
     - Re-create missile defense systems from scratch.
+  Changes:
+    - Use properly tinted rocket missiles as projectile pictures for the ballistic missile defense system.
   Bugfixes:
     - Use big remnants for the ballistic missile defense system instead of the artillery turret remnants.
     - Bigger collision box for the ballistic missile defense system to prevent entities clipping into it.
