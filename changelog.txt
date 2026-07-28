@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: ????
+  Compatibility:
+    - Add support for Space Age, making the ballistic missile defense system a shared Vulcanus/Gleba technology.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2026-07-28
   Bugfixes:
