@@ -20,6 +20,7 @@ khaoslib_entity.copy("artillery-turret", "artillery-turret", "ballistic-missile-
   :unset("cannon_barrel_light_direction")
   :unset("cannon_parking_frame_count")
   :unset("cannon_parking_speed")
+  :unset("water_reflection")
   :set {
     cannon_base_shift = {0, 0, 0},
     cannon_base_pictures = {
