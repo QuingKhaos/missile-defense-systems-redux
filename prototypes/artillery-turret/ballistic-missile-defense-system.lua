@@ -9,6 +9,7 @@ khaoslib_entity.copy("artillery-turret", "artillery-turret", "ballistic-missile-
     turn_after_shooting_cooldown = 20,
     ammo_stack_limit = 10,
     manual_range_modifier = 1,
+    corpse = "big-remnants",
   }
   :unset("rotating_sound")
   :unset("base_picture")
