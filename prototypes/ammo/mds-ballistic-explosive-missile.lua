@@ -5,7 +5,7 @@ local khaoslib_trigger_item = require("__khaoslib__.prototypes.trigger-item")
 
 khaoslib_ammo.copy("rocket", "mds-ballistic-explosive-missile")
   :set {
-    order = "d[rocket-launcher]-c[mds]-b[explosive]",
+    order = "d[rocket-launcher]-e[mds]-b[explosive]",
     ammo_category = "mds-ballistic-missile",
     magazine_size = 10,
   }

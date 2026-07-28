@@ -10,3 +10,5 @@ Date: ????
     - Bigger collision box for the ballistic missile defense system to prevent entities clipping into it.
     - Remove empty artillery shell casings being ejected from the ballistic missile defense system.
     - Create the ballistic missile projectile at the muzzle of the ballistic missile defense system.
+  Compatibility:
+    - Sort ballistic missiles into the rocket ammo subgroup if QuingKhaos' Ammo Group is installed.

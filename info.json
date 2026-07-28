@@ -9,6 +9,7 @@
   "dependencies": [
     "base >= 2.0.77",
 
+    "? khaosammogroup >= 1.4.2",
     "khaosbash >= 1.2.0",
     "khaoslib >= 1.17.2",
 
