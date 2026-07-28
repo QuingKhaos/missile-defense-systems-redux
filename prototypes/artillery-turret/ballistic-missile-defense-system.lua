@@ -10,6 +10,8 @@ khaoslib_entity.copy("artillery-turret", "artillery-turret", "ballistic-missile-
     ammo_stack_limit = 10,
     manual_range_modifier = 1,
     corpse = "big-remnants",
+    collision_box = {{-2, -2}, {2, 2.5}},
+    selection_box = {{-2, -2}, {2, 2.5}},
   }
   :unset("rotating_sound")
   :unset("base_picture")
