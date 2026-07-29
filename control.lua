@@ -59,7 +59,7 @@ local function ballistic_shot_fired_handler(args)
         volleys[uid] = nil
       end
 
-    entity.active = false
+    entity.disabled_by_script = true
     storage.mds_ballistic_artillery_reloading[uid] = {
       entity = entity,
       reload_until = game.tick + reload_ticks,
@@ -150,7 +150,7 @@ script.on_nth_tick(30, function(event)
       reloading[uid] = nil
     elseif event.tick >= data.reload_until then
       mds_artillery_try_open_volley(data.entity, event.tick)
-      data.entity.active = true
+      data.entity.disabled_by_script = false
       reloading[uid] = nil
     end
   end
@@ -285,12 +285,12 @@ script.on_nth_tick(20, function(event)
         if has_volley then
           if blocked[uid] then
             blocked[uid] = nil
-            turret.active = true
+            turret.disabled_by_script = false
           end
         elseif auto_on then
           if blocked[uid] then
             blocked[uid] = nil
-            turret.active = true
+            turret.disabled_by_script = false
           end
 
           if turret.active then
@@ -300,11 +300,11 @@ script.on_nth_tick(20, function(event)
           if flares_exist then
             if not blocked[uid] then
               blocked[uid] = true
-              turret.active = false
+              turret.disabled_by_script = true
             end
           elseif blocked[uid] then
             blocked[uid] = nil
-            turret.active = true
+            turret.disabled_by_script = false
           end
         end
       end
