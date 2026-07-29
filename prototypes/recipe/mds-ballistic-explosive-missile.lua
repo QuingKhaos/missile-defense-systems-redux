@@ -4,7 +4,6 @@ local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 khaoslib_recipe:load {
   type = "recipe",
   name = "mds-ballistic-explosive-missile",
-  category = "crafting",
   energy_required = 10,
   enabled = false,
 } :set_ingredients {
@@ -13,4 +12,5 @@ khaoslib_recipe:load {
 } :set_results {
   {type = "item", name = "mds-ballistic-explosive-missile", amount = 1},
 } :set_icons(khaosbash.load_icons("__missile-defense-systems-redux__/graphics/icons/mds-ballistic-missile", {1, 0.2, 0.2}))
+  :set_categories {"crafting"}
   :commit()

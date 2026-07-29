@@ -5,7 +5,6 @@ if mods["space-age"] then
   khaoslib_recipe:load {
     type = "recipe",
     name = "mds-ballistic-tungsten-missile",
-    category = "crafting",
     energy_required = 10,
     enabled = false,
   } :set_ingredients {
@@ -16,5 +15,6 @@ if mods["space-age"] then
   } :set_results {
     {type = "item", name = "mds-ballistic-tungsten-missile", amount = 1},
   } :set_icons(khaosbash.load_icons("__missile-defense-systems-redux__/graphics/icons/mds-ballistic-missile", util.color("a365b6")))
+    :set_categories {"crafting"}
     :commit()
 end
