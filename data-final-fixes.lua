@@ -4,6 +4,10 @@ local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 if mods["khaosammogroup"] then
   khaoslib_ammo:load("mds-ballistic-missile"):set {subgroup = "ammo-rocket"} :commit()
   khaoslib_ammo:load("mds-ballistic-explosive-missile"):set {subgroup = "ammo-rocket"} :commit()
+
+  if mods["space-age"] then
+    khaoslib_ammo:load("mds-ballistic-tungsten-missile"):set {subgroup = "ammo-rocket"} :commit()
+  end
 end
 
 -- Parity with rocket damage and speed research
