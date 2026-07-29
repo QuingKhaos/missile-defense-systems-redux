@@ -30,6 +30,7 @@ if mods["space-age"] then
   tech:add_prerequisite("rocket-turret")
     :add_science_pack({"metallurgic-science-pack", 1})
     :add_science_pack({"agricultural-science-pack", 1})
+    :add_unlock_recipe("mds-ballistic-tungsten-missile")
 end
 
 tech:commit()

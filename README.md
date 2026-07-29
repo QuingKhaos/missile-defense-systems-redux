@@ -8,7 +8,6 @@ Supports seamless migration from **Missile Defense Systems Continued**.
 
 ## Coming soon
 
-- Space age support
 - Ballistic atomic bomb missile
 - Missile types support from other mods
 
