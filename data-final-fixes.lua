@@ -2,11 +2,12 @@ local khaoslib_ammo = require("__khaoslib__.prototypes.ammo")
 local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 
 if mods["khaosammogroup"] then
-  khaoslib_ammo:load("mds-ballistic-missile"):set {subgroup = "ammo-rocket"} :commit()
-  khaoslib_ammo:load("mds-ballistic-explosive-missile"):set {subgroup = "ammo-rocket"} :commit()
+  local ballistic_missiles = khaoslib_ammo.find(function(ammo)
+    return ammo.ammo_category == "mds-ballistic-missile"
+  end)
 
-  if mods["space-age"] then
-    khaoslib_ammo:load("mds-ballistic-tungsten-missile"):set {subgroup = "ammo-rocket"} :commit()
+  for _, ammo_name in pairs(ballistic_missiles) do
+    khaoslib_ammo:load(ammo_name):set {subgroup = "ammo-rocket"} :commit()
   end
 end
 
