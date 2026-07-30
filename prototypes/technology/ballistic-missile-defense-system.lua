@@ -33,4 +33,9 @@ if mods["space-age"] then
     :add_unlock_recipe("mds-ballistic-tungsten-missile")
 end
 
+if mods["chemical-rocket"] then
+  tech:add_unlock_recipe("mds-ballistic-chemical-missile")
+    :add_unlock_recipe("mds-ballistic-incendiary-missile")
+end
+
 tech:commit()

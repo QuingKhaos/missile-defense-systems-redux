@@ -9,7 +9,14 @@ Supports seamless migration from **Missile Defense Systems Continued**.
 ## Coming soon
 
 - Ballistic atomic bomb missile
-- Missile types support from other mods
+
+## Compatible mods
+
+For the following mods a ballistic missile variant is added:
+
+- [Chemical Rockets](https://mods.factorio.com/mod/chemical-rocket)
+
+If you want to see your favorite mod supported, please open a discussion thread on the mod portal, or an issue on GitHub, or join the Discord server and let me know.
 
 ## Credits
 

@@ -26,7 +26,9 @@
     "khaostransportgroup",
     "science-tab",
 
-    "missile-defense-systems-redux"
+    "missile-defense-systems-redux",
+
+    "chemical-rocket"
   ],
   "space_travel_required": true
 }
