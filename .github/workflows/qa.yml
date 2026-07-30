@@ -9,4 +9,4 @@ on:
 jobs:
   qa:
     name: QA
-    uses: QuingKhaos/khaosci/.github/workflows/qa.yml@2d2ad15a401bf43d8f458d18f1f9f810ba9209dd
+    uses: QuingKhaos/khaosci/.github/workflows/qa.yml@4b3a9b2518e365d5e5d0a9fa0bc65ad8bd7c8c63
