@@ -14,11 +14,9 @@ Supports seamless migration from **Missile Defense Systems Continued**.
 
 For the following mods a ballistic missile variant is added:
 
-- [Chemical Rockets](https://mods.factorio.com/mod/chemical-rocket)ᵃ
+- [Chemical Rockets](https://mods.factorio.com/mod/chemical-rocket)
 
 If you want to see your favorite mod supported, please open a discussion thread on the mod portal, or an issue on GitHub, or join the Discord server and let me know.
-
-ᵃ: As of 2026-07-30 this mod is not yet available for Factorio 2.1. The compatibility layer for this mod is still included, so if the mod is updated for Factorio 2.1, the compatibility will be applied automatically.
 
 ## Credits
 
