@@ -6,10 +6,6 @@ Missile Defense Systems adds three tiers of missile-firing defensive turrets: Ba
 
 Supports seamless migration from **Missile Defense Systems Continued**.
 
-## Coming soon
-
-- Ballistic atomic bomb missile
-
 ## Compatible mods
 
 For the following mods a ballistic missile variant is added:
