@@ -4,7 +4,7 @@
   "description": "Missile Defense Systems adds three tiers of missile-firing defensive turrets: Basic, Advanced, and Ballistic - an end-game rapid-fire artillery launcher.",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
